@@ -1,9 +1,8 @@
-
-
-import React from  "react";
-import { Text, View } from  "react-native";
+import React from 'react';
+import {View, Text} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
-export default function App() {
+
+const ViewBoxesWithColorAndText = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={{height: 100, flexDirection: 'row'}}>
@@ -13,5 +12,6 @@ export default function App() {
       </SafeAreaView>
     </SafeAreaProvider>
   );
-}
+};
 
+export default ViewBoxesWithColorAndText;
